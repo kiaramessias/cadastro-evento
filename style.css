@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+ 
+ 
+ 
+header {
+    background: rgba(247, 62, 253, 0.815);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+ 
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 25px rgba(237, 19, 245, 0.815);
+}
+ 
+ 
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+button{
+    background:rgba(237, 19, 245, 0.815);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 48%;
+}
+ 
+button:hover{
+    background: #000000;
+}
